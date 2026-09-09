@@ -393,7 +393,7 @@ Sub DailyPlanner()
                 act = ws.Cells(i, 2).Value
                 hrs = ws.Cells(i, 3).Value
                 
-                ws.Cells(writeRow, outputCol).Value = act & " Ñ " & hrs & " hrs"
+                ws.Cells(writeRow, outputCol).Value = act & " Ã‘ " & hrs & " hrs"
                 writeRow = writeRow + 1
             End If
         End If
